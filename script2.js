@@ -21,5 +21,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 $(document).ready(function () {
     $(".dropdown-trigger").dropdown();
+    $('input#input_text, textarea#textarea1').characterCounter();
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, {dismissible: false});
+  });

@@ -37,11 +37,12 @@
           <a href="#!" class="brand-logo">Logo</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
+            <li><a href="" data-target="modal1" class=" modal-trigger ">Post new</a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Login<i
                   class="material-icons right">arrow_drop_down</i></a></li>
             <li><a href="">Logout</a></li>
-            <li><a class="dropdown-trigger" href="#!" data-target="about">About Us<i
-                  class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="waves-effect dropdown-trigger" href="#!" data-target="about">About Us<i
+                  class="waves-effect material-icons right">arrow_drop_down</i></a></li>
           </ul>
         </div>
       </nav>
@@ -49,6 +50,7 @@
 
       <!-- side-nav -->
       <ul class="sidenav" id="mobile-demo">
+        <li><a href="" data-target="modal1" class=" modal-trigger ">Post new</a></li> <!-- Modal -->
         <li><a>Login</a>
           <div id="firebaseui-auth-container"></div>
         </li>
@@ -143,6 +145,39 @@
 
 
   </div>
+
+  <div id="modal1" class="modal">
+    <!-- Modal -->
+    <div class="modal-content">
+      <h4>Post New Project</h4>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="card-title" type="text" class="validate">
+              <label for="card-title">Title</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="project-link" type="text" class="validate">
+              <label for="project-link">Link</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea" data-length="100"></textarea>
+              <label for="textarea1">Project Description</label>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Sumbit</a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+    </div>
+  </div> <!-- Modal -->
 
 
   <script src="./script2.js"></script>

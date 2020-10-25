@@ -16,6 +16,7 @@ body{
 #for-content{
     margin-top: 1px;
     /* height: 100%; */
+    width: 100%;
     background-color: burlywood;
     overflow: scroll;
     padding-bottom: 10%;
