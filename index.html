@@ -24,7 +24,7 @@
   <script defer src="./firebase-init.js"></script>
   <script defer src="./firebase-auth.js"></script>
   <script defer src="./script2.js"></script>
-  <link rel="stylesheet" href="./style2.css" />
+  <link defer rel="stylesheet" href="./style2.css" />
   <title>Home Page</title>
 </head>
 
@@ -51,11 +51,11 @@
         <li><span>sanchit verma</span></li>
       </ul>
 
-      <ul id="dropdown1" class="dropdown-content">
+      <!-- <ul id="dropdown1" class="dropdown-content">
         <li><span>
             <div id="firebaseui-auth-container"></div>
           </span></li>
-      </ul>
+      </ul> -->
 
 
       <!-- side-nav -->
@@ -92,13 +92,14 @@
           <img class="activator"
             src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
         </div>
-        <div  class="card-content card_background ">
+        <div class="card-content card_background ">
           <span class="card-title activator grey-text text-lighten-4 card-text" style="font-weight: bold;">Card Title<i
               class="material-icons right">more_vert</i></span>
           <p><a style="color:rgb(0, 0, 0) ">This is a link</a></p>
         </div>
         <div class="card-reveal card_background card-text">
-          <span class="card-title grey-text text-lighten-4" style="font-weight: bold;">Card Title<i class="material-icons right">close</i></span>
+          <span class="card-title grey-text text-lighten-4" style="font-weight: bold;">Card Title<i
+              class="material-icons right">close</i></span>
           <p class="grey-text text-lighten-4">Here is some more information about this product that is only revealed
             once clicked on.</p>
         </div>
@@ -106,7 +107,7 @@
 
       <div id="card" class="card">
         <!--card 2-->
-        <div class="card-image waves-block waves-light">
+        <div class="card-image waves-effect waves-block waves-light">
           <img class="activator"
             src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
         </div>
@@ -140,7 +141,7 @@
 
       <!--card 4-->
       <div id="card" class="card">
-        <div class="card-image waves-block waves-light">
+        <div class="card-image waves-effect waves-block waves-light">
           <img class="activator"
             src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
         </div>
@@ -195,8 +196,7 @@
 
   <!-- Modal -->
   <div id="login-modal" class="modal">
-    <h6>i am modal</h6>
-    <a href=""><div id="firebaseui-auth-container"></div></a>
+    <div id="firebaseui-auth-container"></div>
   </div> <!-- Modal -->
 
   <!-- pull up
