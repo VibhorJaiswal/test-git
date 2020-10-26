@@ -24,16 +24,15 @@
   <script defer src="./firebase-init.js"></script>
   <script defer src="./firebase-auth.js"></script>
   <script defer src="./script2.js"></script>
-  <link defer rel="stylesheet" href="./style2.css" />
+  <link rel="stylesheet" href="./style2.css" />
   <title>Home Page</title>
 </head>
 
 <body>
   <div id="main-div">
-
     <div id="for-nav-bar">
       <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper light-blue darken-1">
           <a href="#!" class="brand-logo">Our Projects </a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
@@ -42,25 +41,24 @@
                   class="material-icons right">arrow_drop_down</i></a></li>
             <li><a href="">Logout</a></li>
             <li><a class="dropdown-trigger waves-teal" data-target="about1">About Us<i
-              class="material-icons right">arrow_drop_down</i></a></li>
+                  class="material-icons right">arrow_drop_down</i></a></li>
           </ul>
         </div>
       </nav>
 
-      <ul id="about1" class="dropdown-content">
+
+      <ul id="about1" class="dropdown-content light-blue lighten-5">
         <li><span>Vibhor jaiswal</span></li>
         <li><span>sanchit verma</span></li>
       </ul>
 
       <ul id="dropdown1" class="dropdown-content">
-        <li><a>
-            <div id="firebaseui-auth-container"></div>
-          </a></li>
+        <li><span><div id="firebaseui-auth-container"></div></span></li>
       </ul>
 
 
       <!-- side-nav -->
-      <ul class="sidenav" id="mobile-demo">
+      <ul class="sidenav light-blue lighten-4" id="mobile-demo">
         <li><a href="" data-target="modal1" class=" modal-trigger ">Post new</a></li> <!-- Modal -->
         <li><a>Login</a>
           <div id="firebaseui-auth-container"></div>
@@ -72,10 +70,10 @@
       <!-- side-nav -->
 
       <!-- Dropdown -->
-        <ul id="about2" class="dropdown-content">
-          <li><span>Vibhor jaiswal</span></li>
-          <li><span>sanchit verma</span></li>
-        </ul>
+      <ul id="about2" class="dropdown-content light-blue lighten-5">
+        <li><span>Vibhor jaiswal</span></li>
+        <li><span>sanchit verma</span></li>
+      </ul>
 
       <!-- <ul id="dropdown2" class="dropdown-content">
         <li><a>
@@ -90,11 +88,47 @@
     <div id="for-content">
 
       <div id="card" class="card">
+        <!--card 1-->
         <div class="card-image waves-effect waves-block waves-light">
           <img class="activator"
             src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
         </div>
-        <div class="card-content">
+        <div class="card-content  grey darken-3 ">
+          <span class="card-title activator grey-text text-lighten-4">Card Title<i
+              class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal grey darken-3">
+          <span class="card-title grey-text text-lighten-4">Card Title<i class="material-icons right">close</i></span>
+          <p class="grey-text text-lighten-4">Here is some more information about this product that is only revealed
+            once clicked on.</p>
+        </div>
+      </div>
+
+      <div id="card" class="card">
+        <!--card 2-->
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator"
+            src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
+        </div>
+        <div class="card-content  light-blue darken-1">
+          <span id="card_title" class="card-title activator grey-text text-darken-4">Card Title<i
+              class="material-icons right">more_vert</i></span>
+          <p><a href="#" class="grey-text text-darken-4">Link: </a></p>
+        </div>
+        <div class="card-reveal blue lighten-2">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+
+      <div id="card" class="card">
+        <!--card 3-->
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator"
+            src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
+        </div>
+        <div class="card-content ">
           <span class="card-title activator grey-text text-darken-4">Card Title<i
               class="material-icons right">more_vert</i></span>
           <p><a href="#">This is a link</a></p>
@@ -105,12 +139,63 @@
         </div>
       </div>
 
+      <!--card 4-->
       <div id="card" class="card">
         <div class="card-image waves-effect waves-block waves-light">
           <img class="activator"
             src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
         </div>
-        <div class="card-content">
+        <div class="card-content pink accent-2">
+          <span class="card-title activator grey-text text-darken-4">Card Title<i
+              class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal pink accent-1">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+
+
+      <!-- extra divs... -->
+
+      <div id="card" class="card">
+        <!--card 3-->
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator"
+            src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
+        </div>
+        <div class="card-content ">
+          <span class="card-title activator grey-text text-darken-4">Card Title<i
+              class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div><div id="card" class="card">
+        <!--card 3-->
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator"
+            src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
+        </div>
+        <div class="card-content ">
+          <span class="card-title activator grey-text text-darken-4">Card Title<i
+              class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div><div id="card" class="card">
+        <!--card 3-->
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator"
+            src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
+        </div>
+        <div class="card-content ">
           <span class="card-title activator grey-text text-darken-4">Card Title<i
               class="material-icons right">more_vert</i></span>
           <p><a href="#">This is a link</a></p>
@@ -121,37 +206,7 @@
         </div>
       </div>
 
-      <div id="card" class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator"
-            src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Card Title<i
-              class="material-icons right">more_vert</i></span>
-          <p><a href="#">This is a link</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
-
-      <div id="card" class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator"
-            src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Card Title<i
-              class="material-icons right">more_vert</i></span>
-          <p><a href="#">This is a link</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
+      <!-- extra diva ends here... -->
 
     </div>
 
@@ -190,6 +245,10 @@
       <a href="#!" class="modal-close waves-teal btn-flat">Cancel</a>
     </div>
   </div> <!-- Modal -->
+
+  <!-- pull up
+  <a id="pull_up" class="btn-floating btn-large cyan pulse"><i class="material-icons">edit</i></a> -->
+
 
 
   <script src="./script2.js"></script>
