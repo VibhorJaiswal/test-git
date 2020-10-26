@@ -26,8 +26,13 @@ $(document).ready(function () {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.modal');
+    var elems = document.querySelector('#modal1');
     var instances = M.Modal.init(elems, {dismissible: false});
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelector('#login-modal');
+    var instances = M.Modal.init(elems, {dismissible: true});
   });
 
   document.addEventListener('DOMContentLoaded', function() {
