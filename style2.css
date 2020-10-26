@@ -10,6 +10,12 @@ body {
   overflow: scroll;
 }
 
+
+@media only screen and (min-width: 0){
+  html {
+    font-size: 16px;
+  }
+}
 #for-content {
   margin-top: 1px;
   /* height: 100%; */
