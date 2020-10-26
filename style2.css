@@ -60,3 +60,11 @@ body{
    margin-bottom: 0px;
     
 }
+
+.card_background {
+    background-image: linear-gradient(rgb(5, 176, 255), rgb(148, 241, 253));
+  }
+
+.card-text{
+        text-shadow: 1px 1px 1px #000000;
+}
