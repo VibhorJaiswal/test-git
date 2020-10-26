@@ -10,19 +10,22 @@ body{
     overflow: scroll;
 }
 
-/* #for-nav-bar{
-    height: 10%;
-} */
 
-#for-content{
-    margin-top: 1px;
-    /* height: 100%; */
-    width: 100%;
-    background-color: rgba(248, 248, 248, 0);
-    overflow: scroll;
-    padding-bottom: 10%;
-    display: flex; 
-    flex-wrap: wrap;
+@media only screen and (min-width: 0){
+  html {
+    font-size: 16px;
+  }
+}
+#for-content {
+  margin-top: 1px;
+  /* height: 100%; */
+  width: 100%;
+  background-color: rgba(248, 248, 248, 0);
+  overflow: scroll;
+  padding-bottom: 10%;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 @media (max-width: 800px) {
