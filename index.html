@@ -24,7 +24,7 @@
   <script defer src="./firebase-init.js"></script>
   <script defer src="./firebase-auth.js"></script>
   <script defer src="./script2.js"></script>
-  <link rel="stylesheet" href="./style2.css" />
+  <link defer rel="stylesheet" href="./style2.css" />
   <title>Home Page</title>
 </head>
 
@@ -88,18 +88,19 @@
 
       <div id="card" class="card">
         <!--card 1-->
-        <div class="card-image waves-effect waves-block waves-light">
+        <div class="card-image ">
           <img class="activator"
             src="https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);">
         </div>
-        <div class="card-content  grey darken-3 ">
-          <span class="card-title activator grey-text text-lighten-4">Card Title<i
+        <div class="card-content card_background ">
+          <span class="card-title activator grey-text text-lighten-4 card-text" style="font-weight: bold;">Card Title<i
               class="material-icons right">more_vert</i></span>
-          <p><a href="#">This is a link</a></p>
+          <p><a style="color:rgb(0, 0, 0) ">This is a link</a></p>
         </div>
-        <div class="card-reveal grey darken-3">
-          <span class="card-title grey-text text-lighten-4">Card Title<i class="material-icons right">close</i></span>
-          <p class="grey-text text-lighten-4">Here is some more information about this product that is only revealed
+        <div class="card-reveal card_background card-text">
+          <span class="card-title grey-text text-lighten-4" style="font-weight: bold;">Card Title<i
+              class="material-icons right">close</i></span>
+          <p class="grey-text card-text text-lighten-4">Here is some more information about this product that is only revealed
             once clicked on.</p>
         </div>
       </div>
