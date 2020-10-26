@@ -1,62 +1,70 @@
-#main-div {
-  height: 100%;
-  width: 100%;
-  /* overflow: scroll; */
-  padding: 0px;
+#main-div{
+    height: 100%;
+    width: 100%;
+    /* overflow: scroll; */
+    padding: 0px;
 }
-body {
-  height: 100vh;
-    background: radial-gradient(#aaddfff0, #39acf8);
-  overflow: scroll;
+body{
+    height: 100vh;
+    background-color: rgb(197, 197, 197);
+    overflow: scroll;
 }
 
-#for-content {
-  margin-top: 1px;
-  /* height: 100%; */
-  width: 100%;
-  background-color: rgba(248, 248, 248, 0);
-  overflow: scroll;
-  padding-bottom: 10%;
-  display: flex;
-  flex-wrap: wrap;
+/* #for-nav-bar{
+    height: 10%;
+} */
+
+#for-content{
+    margin-top: 1px;
+    /* height: 100%; */
+    width: 100%;
+    background-color: rgba(248, 248, 248, 0);
+    overflow: scroll;
+    padding-bottom: 10%;
+    display: flex; 
+    flex-wrap: wrap;
 }
 
 @media (max-width: 800px) {
-  #for-content {
-    /* flex: 100%;
+    #for-content {
+      /* flex: 100%;
       flex-direction: row; */
-    align-content: center;
-  }
+      align-content: center;
+    }
 
-  @media only screen and (max-width: 992px) {
-    .modal {
-      width: fit-content;
+    #card{
+        width: 100%;
+        margin: 5px;
+    }
+
+    #for-content{
+        background-color: rgba(102, 51, 153, 0);
     }
   }
-  #card {
-    width: 100%;
-    margin: 5px;
+
+#card{
+    max-width: 40%;
+    max-height: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+#card_title{
+    font-weight: bold;
+}
+
+#pull_up{
+    float: right;
+   /* position: fixed; */
+   margin-bottom: 0px;
+    
+}
+
+.card_background {
+    background-image: linear-gradient(rgb(5, 176, 255), rgb(148, 241, 253));
   }
 
-  #for-content {
-    background-color: rgba(102, 51, 153, 0);
-  }
-}
-
-#card {
-  max-width: 40%;
-  max-height: 50%;
-  margin: auto;
-  margin-bottom: 20px;
-  padding: 0px;
-}
-
-#card_title {
-  font-weight: bold;
-}
-
-#pull_up {
-  float: right;
-  /* position: fixed; */
-  margin-bottom: 0px;
+.card-text{
+        text-shadow: 1px 1px 1px #000000;
 }
