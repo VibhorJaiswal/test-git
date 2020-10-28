@@ -1,7 +1,6 @@
 #main-div{
     height: 100%;
     width: 100%;
-    /* overflow: scroll; */
     padding: 0px;
 }
 body{
@@ -30,8 +29,6 @@ body{
 
 @media (max-width: 800px) {
     #for-content {
-      /* flex: 100%;
-      flex-direction: row; */
       align-content: center;
     }
 
@@ -59,7 +56,6 @@ body{
 
 #pull_up{
     float: right;
-   /* position: fixed; */
    margin-bottom: 0px;
     
 }
